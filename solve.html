@@ -548,7 +548,7 @@ function show_solution(moves)
   if (params != '')
     af += params;
   acjs_removeListeners['cube']();
-  AnimCube3("id=cube&edit=0&move=" + moves + "&facelets=" + af);
+  AnimCube3("id=cube&sliderbgcolor=dddddd&move=" + moves + "&facelets=" + af);
   document.getElementById('status').style.textAlign = 'center';
   var nodes = (p1_nodes < 1000 && moves.length > 0) ? ' &nbsp; ' + p1_nodes : '';
   var depths = (show_deps ? ' &nbsp; ' + sol_dep1 + '+' + sol_dep2 + nodes : '');
@@ -569,7 +569,7 @@ function show_cube(n)
   var params = animcube_params();
   if (params != '')
     af += params;
-  AnimCube3("id=cube&edit=0&facelets=" + af);
+  AnimCube3("id=cube&sliderbgcolor=dddddd&facelets=" + af);
 }
 
 function clear_status()

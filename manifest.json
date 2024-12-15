@@ -4,7 +4,7 @@
   "theme_color": "#ffffff",
   "background_color": "#000000",
   "display": "standalone",
-  "start_url": "solve.html?stl=0&snc=1&edit=1&buttonheight=19&movetext=1&fonttype=1&textsize=18&bgcolor=38383D&butbgcolor=baffc9&repeat=0&slidercolor=707070&sliderbgcolor=dddddd&snap=1&scale=1",
+  "start_url": "solve.html?stl=0&snc=1&edit=1&buttonheight=19&movetext=1&fonttype=1&textsize=18&bgcolor=38383D&butbgcolor=baffc9&repeat=0&slidercolor=707070&troughcolor=dddddd&snap=1&scale=1",
   "icons": [
     {
       "src": "cube192.png",

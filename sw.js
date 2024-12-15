@@ -1,4 +1,4 @@
-var cacheName = 'Solver_v29';
+var cacheName = 'Solver_v30';
 var filesToCache = [
   'readfiles.js',
   'solve.html',
